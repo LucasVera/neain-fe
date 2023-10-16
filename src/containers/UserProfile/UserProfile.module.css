@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.containerInfoTexts {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.infoText {
+  margin: 5px 0px;
+}
+
+.input {
+  margin-top: 25px;
+}
+
+.saveProfileButton {
+  border: 1px solid var(--primary);
+  border-radius: var(--border-radius);
+  background-color: var(--primary-dark);
+  color: var(--light);
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 50px;
+  font-size: var(--font-size-lg);
+
+  &:hover {
+    background-color: var(--primary);
+  }
+}

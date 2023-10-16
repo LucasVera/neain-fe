@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin: 0 2%;
+}
+
+.newVillageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.createVillageButton {
+  margin-top: 20px;
+}
+
+.spinnerStyle {
+  align-self: center;
+  justify-self: center;
+  margin-top: 100px;
+}

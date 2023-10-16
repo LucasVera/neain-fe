@@ -1,0 +1,38 @@
+.button {
+  border: 1px solid var(--primary);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-lg);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.buttonPrimary {
+  background-color: var(--primary-dark);
+  color: var(--light);
+
+  &:hover {
+    background-color: var(--primary);
+  }
+}
+
+.buttonSecondary {
+  background-color: var(--secondary-dark);
+  color: var(--light);
+
+  &:hover {
+    background-color: var(--secondary);
+  }
+}
+
+.buttonTertiary {
+  background-color: var(--tertiary-dark);
+  color: var(--light);
+
+  &:hover {
+    background-color: var(--tertiary);
+  }
+}
+
+.disabled {
+  cursor: not-allowed;
+}

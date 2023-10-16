@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label {
+  font-size: var(--font-size-md);
+  margin: 5px 0px;
+}
+
+.input {
+  font-size: var(--font-size-md);
+  margin: 5px 0px;
+  height: 50px;
+  border: 1px solid var(--primary);
+  border-radius: var(--border-radius);
+  padding: 0px 5px 0px 15px;
+  background-color: var(--primary-dark);
+  color: var(--light);
+}
+
+@media screen and (max-width: 768px) {
+  .input {
+    height: 30px;
+    font-size: var(--font-size-sm);
+  }
+}
